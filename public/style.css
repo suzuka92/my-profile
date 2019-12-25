@@ -1,0 +1,114 @@
+body{
+    background-color: #000000;
+    margin: 0;
+}
+
+.main-wrapper{
+    postion: relative;
+}
+.main{ 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto; 
+}
+
+.main-wrapper{
+    background-size: cover;
+    display:flex;
+}
+.main h1{
+    width: 100%;
+    color: rgb(255, 255, 255, 0.9);
+    font-size: 90px;
+    letter-spacing:8px;
+    text-align: center;
+    padding-top: 80px;
+}
+h1{
+    color: #c0c0c0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.profile-wrapper{
+    margin: 25px;
+}
+
+.profile-wrapper h1,h2{
+    letter-spacing:3px;
+}
+
+.profile-wrapper h2{
+    border-bottom: 1px solid #808080;
+    padding: 10px;
+    margin-bottom: 30px; 
+} 
+
+.profile img{
+    width:300px;
+    height: 300px;
+    padding:  30px 40px 30px 30px;
+    float : left;
+
+}
+
+.profile h3{
+    font-size: 30px;
+    letter-spacing:2px;
+}
+
+p{
+    font-size: 15px;
+    
+}
+
+.profile-text{
+    padding: 10px; 
+}
+
+.skill{
+    clear: both;
+}
+
+.favorite-wrapper img{
+    width: 200px;
+}
+
+.favorite{
+    display: inline-block; 
+    border: solid 1px #fff;
+    text-align: center;
+    border-radius: 0px 30px 0px 30px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+
+.favorite h3{
+    letter-spacing:3px;
+}
+
+.sns{
+    background-color: #303030;
+    padding:10px;
+    width: 100%;
+    text-align: right;
+}
+
+.twitter{
+    color: #fff;
+    padding: 0 10px;
+}
+
+.instagram{
+    color: #fff;
+    padding: 0 10px;
+}
+
+.github{
+    color: #fff;
+    padding: 0 10px;  
+}
