@@ -25,8 +25,8 @@ p,li{
 .main h1 {
     position: absolute;
     color: rgb(255, 255, 255, 1);
-    font-size: 9rem;
-    letter-spacing: 0.5rem;
+    font-size: 12rem;
+    letter-spacing: 1rem;
     text-align: center;
     top: 50%;
     left: 50%;
@@ -62,7 +62,6 @@ h1{
     font-size: 2rem;
 } 
 
-
 .profile img{
     width:300px;
     height: 300px;
@@ -73,6 +72,8 @@ h1{
 .name{
     font-weight: bold;
     font-size: 2rem;
+    letter-spacing:0.3rem;
+
 }
 .profile-text{
     padding: 10px; 
@@ -165,14 +166,14 @@ input, textarea{
     .main h1{
         position: absolute;
         color:　#fff;
-        font-size:7rem;
-        letter-spacing:0.2rem;
+        font-size:8rem;
+        letter-spacing:0.4rem;
         text-align: center;
      }
     h1{
         color: #c0c0c0;
         text-align: center;
-        font-size:4rem;
+        font-size:5rem;
         padding-top:30px;
     }
 
