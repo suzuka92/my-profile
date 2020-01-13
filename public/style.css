@@ -166,24 +166,24 @@ input, textarea{
     .main h1{
         position: absolute;
         color:　#fff;
-        font-size:8rem;
-        letter-spacing:0.4rem;
+        font-size: 7rem;
+        letter-spacing: 0.4rem;
         text-align: center;
      }
     h1{
         color: #c0c0c0;
         text-align: center;
-        font-size:5rem;
-        padding-top:30px;
+        font-size: 5rem;
+        padding-top: 30px;
     }
 
     .profile img{
-        width:300px;
+        width: 300px;
         height: 300px;
     }
     .profile h3{
         font-size: 2rem;
-        letter-spacing:0.2rem;
+        letter-spacing: 0.2rem;
     }
     .profile-text{
         width: 100%;
