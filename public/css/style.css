@@ -1,0 +1,292 @@
+
+body{
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+}
+
+p,li{
+    font-size: 16px;    
+}
+
+.main-wrapper{
+    position: relative;
+}
+
+.main-wrapper img{
+    max-width: 100%;
+    height: auto;
+}
+
+.main-wrapper{
+    background-size: cover;
+    display:flex;
+}
+.main h1 {
+    position: absolute;
+    color: rgb(255, 255, 255, 1);
+    font-size: 12rem;
+    letter-spacing: 1rem;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+h1{
+    color: #c0c0c0;
+    font-size: 5rem;
+    text-align: center;
+}
+
+/*プロフィール*/
+
+/*プロフィール全体の余白*/
+.profile-wrapper{
+    margin: 0 10%;
+}
+
+.profile-wrapper h1,h2,h3{    
+    letter-spacing:0.3rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+.profile-wrapper h2{
+    border-bottom: 1px solid #808080;
+    padding: 10px;
+    margin: 50px 0 30px 0; 
+    font-size: 2rem;
+} 
+
+.profile img{
+    width:300px;
+    height: 300px;
+    padding-right:  50px;
+    float : left;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing:0.3rem;
+
+}
+.profile-text{
+    padding: 10px; 
+    width: 80%;
+}
+
+.skill{
+    clear: both;
+}
+
+.favorite-wrapper img{
+    width: 100%;
+    position: relative;
+}
+
+.favorite-wrapper{
+    width: 100%;
+    text-align: center;
+}
+
+.favorite{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;   
+    width: 30%;
+    padding: 0 1rem 2rem 1rem; 
+}
+
+.favorite p{
+    text-align: left;
+}
+
+/*contactここから*/
+
+input, textarea{
+    width: 400px;
+    margin: 0 0 10px  0;
+    padding: 5px;
+    font-size: 18px;
+    border: solid 1px ; 
+    color: #dee7ec;
+}
+
+.contact-form{
+    padding-bottom: 50px;
+}
+
+.contact-submit{
+    background-color: rgb(255,173,214,0.2);
+    color: #fff;
+  }
+
+.contact-submit:hover {
+    background-color: rgb(255,173,214,0.6);
+}
+
+
+/*footerここから*/
+
+.sns{
+    background-color: #303030;
+    padding:10px;
+    width: 100%;
+    text-align: right;
+}
+
+.snsbtn{	
+    font-size:18px;
+    text-decoration:none;
+    transition:.5s;
+    color:#666;	
+    padding: 0 10px;
+}
+
+.snsbtn .fa-twitter:hover{
+    color:#55acee;
+}
+.snsbtn .fa-instagram:hover{
+    color: #b580ff;
+}
+.snsbtn .fa-github:hover{
+    color:#709968;
+}
+/*==================================*/
+/*タ　ブ　レ　ッ　ト　画　面　の　み　適　応*/
+/*==================================*/
+
+@media screen and (max-width: 1000px) { 
+
+    .main h1{
+        position: absolute;
+        color: #fff;
+        font-size: 7rem;
+        letter-spacing: 0.4rem;
+        text-align: center;
+     }
+    h1{
+        color: #c0c0c0;
+        text-align: center;
+        font-size: 5rem;
+        padding-top: 30px;
+    }
+
+    .profile img{
+        width: 300px;
+        height: 300px;
+    }
+    .profile h3{
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+    .profile-text{
+        width: 100%;
+    }
+    .favorite-wrapper{
+        width: 100%;
+        text-align: left;
+    }
+
+    .favorite-wrapper img{
+        width: 100%;
+        position: relative;
+    }
+    
+    .favorite{
+        display: inline-block;
+        vertical-align: top;  
+        width: 45%;
+        padding: 0 0.5rem 2rem 0.5rem; 
+    }
+    
+    .favorite p{
+        text-align: left;
+    }
+    
+
+ }
+/*==================================*/
+/*モ　バ　イ　ル　画　面　の　み　適　応*/
+/*==================================*/
+
+@media screen and (max-width: 479px) { 
+    
+/*プロフィール全体の余白*/
+.profile-wrapper{
+    margin: 0 7%;
+}
+
+.wrap {
+	overflow: hidden;
+}
+ .main-wrapper{
+    position: relative;
+ }
+ .main h1{
+    position: absolute;
+    color: #fff;
+    font-size:4rem;
+    letter-spacing:0.3rem;
+    text-align: center;
+ }
+
+ .main-wrapper img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+ /*プロフィール*/
+ h1{
+    color: #c0c0c0;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.profile h3{
+    font-size: 2rem;
+    letter-spacing:0.2rem;
+}
+
+.profile-text{
+    width: 100%;
+}
+
+.profile img{
+    padding-bottom: 2rem;
+}
+
+.favorite-wrapper img{
+    width: 100%;
+    position: relative;
+}
+.favorite-wrapper{
+    width: 100%;
+    text-align: center;
+}
+.favorite{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0 0 2rem 0; 
+}
+
+
+/*contact*/
+
+input, textarea{
+    width: 90%;
+    margin: 0 0 10px  0;
+    padding: 5px;
+    font-size: 18px;
+    border: solid 1px ; 
+    color: #000;
+}
