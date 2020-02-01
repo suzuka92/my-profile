@@ -45,8 +45,9 @@ h1{
 
 /*プロフィール*/
 
+/*プロフィール全体の余白*/
 .profile-wrapper{
-    margin: 0 10%;　/*プロフィール全体の余白*/
+    margin: 0 10%;
 }
 
 .profile-wrapper h1,h2,h3{    
@@ -165,7 +166,7 @@ input, textarea{
 
     .main h1{
         position: absolute;
-        color:　#fff;
+        color: #fff;
         font-size: 7rem;
         letter-spacing: 0.4rem;
         text-align: center;
@@ -216,9 +217,10 @@ input, textarea{
 /*==================================*/
 
 @media screen and (max-width: 479px) { 
-
+    
+/*プロフィール全体の余白*/
 .profile-wrapper{
-    margin: 0 7%;　/*プロフィール全体の余白*/
+    margin: 0 7%;
 }
 
 .wrap {
@@ -229,7 +231,7 @@ input, textarea{
  }
  .main h1{
     position: absolute;
-    color:　#fff;
+    color: #fff;
     font-size:4rem;
     letter-spacing:0.3rem;
     text-align: center;
@@ -287,6 +289,4 @@ input, textarea{
     font-size: 18px;
     border: solid 1px ; 
     color: #000;
-}
-
 }
